@@ -1,142 +1,463 @@
 {
-    "bus1": {
-        "nr": 1
-        , "stops": {
-            "stop1": {
-                "stopName": "Centras (prie Ūkio banko)"
-                , "time": [{
-                    "hour": 5
-                    , "minutes": [11]
-                }, {
-                    "hour": 6
-                    , "minutes": [3, 33, 37]
-                }, {
-                    "hour": 7
-                    , "minutes": [2, 12, 35]
-                }, {
-                    "hour": 8
-                    , "minutes": [44]
-                }, {
-                    "hour": 9
-                    , "minutes": [1, 47]
-                }, {
-                    "hour": 10
-                    , "minutes": [26, 54]
-                }, {
-                    "hour": 11
-                    , "minutes": [31, 58]
-                }, {
-                    "hour": 12
-                    , "minutes": [38]
-                }, {
-                    "hour": 13
-                    , "minutes": [23]
-                }, {
-                    "hour": 14
-                    , "minutes": [26, 45]
-                }, {
-                    "hour": 15
-                    , "minutes": [29, 45]
-                }, {
-                    "hour": 16
-                    , "minutes": [30, 45]
-                }, {
-                    "hour": 17
-                    , "minutes": [16, 45]
-                }, {
-                    "hour": 18
-                    , "minutes": [25]
-                }, {
-                    "hour": 19
-                    , "minutes": [30]
-                }, {
-                    "hour": 20
-                    , "minutes": [38]
-                }, {
-                    "hour": 21
-                    , "minutes": [35]
-                }]
-            }
-            , "stop2": {
-                "stopName": "Justinava (link stoties)"
-                , "time": [{
-                    "hour": 5
-                    , "minutes": [39]
-                }, {
-                    "hour": 6
-                    , "minutes": [29]
-                }, {
-                    "hour": 7
-                    , "minutes": [7, 35]
-                }, {
-                    "hour": 8
-                    , "minutes": [12]
-                }, {
-                    "hour": 9
-                    , "minutes": [17, 58]
-                }, {
-                    "hour": 10
-                    , "minutes": [22, 44]
-                }, {
-                    "hour": 11
-                    , "minutes": [2, 27]
-                }, {
-                    "hour": 12
-                    , "minutes": [7, 32]
-                }, {
-                    "hour": 13
-                    , "minutes": [13, 55]
-                }, {
-                    "hour": 14
-                    , "minutes": [59]
-                }, {
-                    "hour": 15
-                    , "minutes": [18]
-                }, {
-                    "hour": 16
-                    , "minutes": [2, 18]
-                }, {
-                    "hour": 17
-                    , "minutes": [3, 18, 53]
-                }, {
-                    "hour": 18
-                    , "minutes": [18, 58]
-                }, {
-                    "hour": 20
-                    , "minutes": [6]
-                }, {
-                    "hour": 21
-                    , "minutes": [20]
-                }, {
-                    "hour": 22
-                    , "minutes": [21]
-                }]
-            }
-        }
+  "bus1": {
+    "nr": 1,
+    "stops": {
+      "stop1": {
+        "stopName": "Centras (prie Ūkio banko)",
+        "time": [
+          {
+            "hour": 5,
+            "minutes": [
+              11
+            ]
+          },
+          {
+            "hour": 6,
+            "minutes": [
+              3,
+              33,
+              37
+            ]
+          },
+          {
+            "hour": 7,
+            "minutes": [
+              2,
+              12,
+              35
+            ]
+          },
+          {
+            "hour": 8,
+            "minutes": [
+              44
+            ]
+          },
+          {
+            "hour": 9,
+            "minutes": [
+              1,
+              47
+            ]
+          },
+          {
+            "hour": 10,
+            "minutes": [
+              26,
+              54
+            ]
+          },
+          {
+            "hour": 11,
+            "minutes": [
+              31,
+              58
+            ]
+          },
+          {
+            "hour": 12,
+            "minutes": [
+              38
+            ]
+          },
+          {
+            "hour": 13,
+            "minutes": [
+              23
+            ]
+          },
+          {
+            "hour": 14,
+            "minutes": [
+              26,
+              45
+            ]
+          },
+          {
+            "hour": 15,
+            "minutes": [
+              29,
+              45
+            ]
+          },
+          {
+            "hour": 16,
+            "minutes": [
+              30,
+              45
+            ]
+          },
+          {
+            "hour": 17,
+            "minutes": [
+              16,
+              45
+            ]
+          },
+          {
+            "hour": 18,
+            "minutes": [
+              25
+            ]
+          },
+          {
+            "hour": 19,
+            "minutes": [
+              30
+            ]
+          },
+          {
+            "hour": 20,
+            "minutes": [
+              38
+            ]
+          },
+          {
+            "hour": 21,
+            "minutes": [
+              35
+            ]
+          }
+        ]
+      },
+      "stop2": {
+        "stopName": "Justinava (link stoties)",
+        "time": [
+          {
+            "hour": 5,
+            "minutes": [
+              39
+            ]
+          },
+          {
+            "hour": 6,
+            "minutes": [
+              29
+            ]
+          },
+          {
+            "hour": 7,
+            "minutes": [
+              7,
+              35
+            ]
+          },
+          {
+            "hour": 8,
+            "minutes": [
+              12
+            ]
+          },
+          {
+            "hour": 9,
+            "minutes": [
+              17,
+              58
+            ]
+          },
+          {
+            "hour": 10,
+            "minutes": [
+              22,
+              44
+            ]
+          },
+          {
+            "hour": 11,
+            "minutes": [
+              2,
+              27
+            ]
+          },
+          {
+            "hour": 12,
+            "minutes": [
+              7,
+              32
+            ]
+          },
+          {
+            "hour": 13,
+            "minutes": [
+              13,
+              55
+            ]
+          },
+          {
+            "hour": 14,
+            "minutes": [
+              59
+            ]
+          },
+          {
+            "hour": 15,
+            "minutes": [
+              18
+            ]
+          },
+          {
+            "hour": 16,
+            "minutes": [
+              2,
+              18
+            ]
+          },
+          {
+            "hour": 17,
+            "minutes": [
+              3,
+              18,
+              53
+            ]
+          },
+          {
+            "hour": 18,
+            "minutes": [
+              18,
+              58
+            ]
+          },
+          {
+            "hour": 20,
+            "minutes": [
+              6
+            ]
+          },
+          {
+            "hour": 21,
+            "minutes": [
+              20
+            ]
+          },
+          {
+            "hour": 22,
+            "minutes": [
+              21
+            ]
+          }
+        ]
+      }
     }
-    , "bus2": {
-        "nr": 4
-        , "stops": {
-            "stop1": {
-                "stopName": "Centras"
-                , "time": [{
-                    "hour": 15
-                    , "minutes": [11, 21, 31, 41, 51]
-                }, {
-                    "hour": 17
-                    , "minutes": [12, 22, 32, 42, 52]
-                }]
-            }
-            , "stop2": {
-                "stopName": "Vilainiai"
-                , "time": [{
-                    "hour": 7
-                    , "minutes": [11, 21, 31, 41, 51]
-                }, {
-                    "hour": 8
-                    , "minutes": [12, 22, 32, 42, 52]
-                }]
-            }
-        }
+  },
+  "bus2": {
+    "nr": 2,
+    "stops": {
+      "stop1": {
+        "stopName": "Stotis",
+        "time": [
+          {
+            "hour": 5,
+            "minutes": [
+              2,
+              33
+            ]
+          },
+          {
+            "hour": 6,
+            "minutes": [
+              2,
+              31
+            ]
+          },
+          {
+            "hour": 7,
+            "minutes": [
+              15
+            ]
+          },
+          {
+            "hour": 9,
+            "minutes": [
+              38
+            ]
+          },
+          {
+            "hour": 14,
+            "minutes": [
+              "7 Pr."
+            ]
+          },
+          {
+            "hour": 15,
+            "minutes": [
+              " 7 Pr. A. T. K. ",
+              42
+            ]
+          },
+          {
+            "hour": 16,
+            "minutes": [
+              38,
+              48
+            ]
+          },
+          {
+            "hour": 17,
+            "minutes": [
+              17,
+              30,
+              57
+            ]
+          }
+        ]
+      }
     }
+  },
+  "bus3": {
+    "nr": 4,
+    "stops": {
+      "stop1": {
+        "stopName": "Centras",
+        "time": [
+          {
+            "hour": 15,
+            "minutes": [
+              11,
+              21,
+              31,
+              41,
+              51
+            ]
+          },
+          {
+            "hour": 17,
+            "minutes": [
+              12,
+              22,
+              32,
+              42,
+              52
+            ]
+          }
+        ]
+      },
+      "stop2": {
+        "stopName": "Vilainiai",
+        "time": [
+          {
+            "hour": 7,
+            "minutes": [
+              11,
+              21,
+              31,
+              41,
+              51
+            ]
+          },
+          {
+            "hour": 8,
+            "minutes": [
+              12,
+              22,
+              32,
+              42,
+              52
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "bus4": {
+    "nr": 6,
+    "stops": {
+      "stop1": {
+        "stopName": "Stotis",
+        "time": [
+          {
+            "hour": 5,
+            "minutes": [
+              13
+            ]
+          },
+          {
+            "hour": 6,
+            "minutes": [
+              25
+            ]
+          },
+          {
+            "hour": 7,
+            "minutes": [
+              0,
+              21,
+              35
+            ]
+          },
+          {
+            "hour": 9,
+            "minutes": [
+              15,
+              20
+            ]
+          },
+          {
+            "hour": 10,
+            "minutes": [
+              13,
+              52
+            ]
+          },
+          {
+            "hour": 11,
+            "minutes": [
+              38
+            ]
+          },
+          {
+            "hour": 12,
+            "minutes": [
+              10
+            ]
+          },
+          {
+            "hour": 13,
+            "minutes": [
+              42,
+              50
+            ]
+          },
+          {
+            "hour": 14,
+            "minutes": [
+              28,
+              56
+            ]
+          },
+          {
+            "hour": 15,
+            "minutes": [
+              49
+            ]
+          },
+          {
+            "hour": 16,
+            "minutes": [
+              10,
+              35,
+              44
+            ]
+          },
+          {
+            "hour": 17,
+            "minutes": [
+              7
+            ]
+          },
+          {
+            "hour": 18,
+            "minutes": [
+              25
+            ]
+          },
+          {
+            "hour": 19,
+            "minutes": [
+              26
+            ]
+          }
+        ]
+      }
+    }
+  }
 }

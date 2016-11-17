@@ -14,6 +14,9 @@ body {
 a {
   color: #333; }
 
+input, select:focus {
+  outline: 0; }
+
 .header {
   height: 60px;
   background: #607D8B;
@@ -65,44 +68,37 @@ a {
 .filter-wrapper {
   padding-left: 10px;
   display: block;
-  margin: 7px 0; }
+  margin: 7px 0;
+}
 
-.filter-wrapper h4 {
-  font-weight: 400;
-  color: #424242;
-  display: inline-block;
-  font-size: 1.125em; }
-
-.filter-wrapper span select {
+.filter-wrapper select {
   font-family: inherit;
+  font-size: 1.375em;
   color: inherit;
   display: inline-block;
-  font-weight: bold;
-  text-align: center;
   background: none;
   border: 0;
   vertical-align: text-bottom;
   border-bottom: 2px solid #607D8B;
   border-radius: 0;
   -webkit-appearance: none;
-  min-width: 30px; }
+  min-width: 30px;
+}
 
-.filter-wrapper .bus-select span select {
-  padding-left: 5px;
-  font-size: 1.375em; }
+.filter-wrapper select.bus-select{
+   font-weight: bold;
+   padding-left: 5px;
+}
 
-.filter-wrapper .stop-select span select {
-  font-size: 1em;
-  padding: 0;
-  overflow: hidden; }
+.filter-wrapper select.stop-select{
+    padding-left: 0;
+    font-size: 1.2em;
+}
 
 .filter-wrapper .route {
   display: block;
   padding-top: 5px;
   opacity: 0.7; }
-
-input, select:focus {
-  outline: 0; }
 
 .time-table {
   border-collapse: collapse;
@@ -181,4 +177,5 @@ footer {
     width: 90%;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap; } }
+    white-space: nowrap; }
+}

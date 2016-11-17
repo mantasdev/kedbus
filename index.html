@@ -26,8 +26,12 @@
         </header>
         <main class="content">
             <section class="filter-wrapper">
-                <h4 class="bus-select">{{h_busNo}} <span><select ng-model="selectedNr" ng-options="y.nr for (x,y) in busData"></select></span></h4>
-                <h4 class="stop-select">{{h_stopName}}<span><select ng-model="selectedStop" ng-options="z.stopName for (x,z) in selectedNr.stops"></select></span></h4>
+                <select class="bus-select" ng-model="selectedNr" ng-options="y.nr for (x,y) in busData">
+                  <option value="">Nr.</option>
+                </select>
+                <select class="stop-select" ng-model="selectedStop" ng-options="z.stopName for (x,z) in selectedNr.stops">
+                  <option value="">Stotelė :</option>
+                </select>
                 <br>
                 <span class="route">{{selectedNr.route}}</span>
             </section>
