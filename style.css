@@ -10,7 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #fafafa;
   color: #333;
-  font-size: 100%;
+  font-size: 1em;
   -webkit-font-smoothing: antialiased; }
 
 /* line 14, C:/web/kedbus/style.scss */
@@ -161,12 +161,19 @@ footer {
 
 @media screen and (max-width: 400px) {
   /* line 145, C:/web/kedbus/style.scss */
+  body {
+    font-size: 1.25em; }
+  /* line 148, C:/web/kedbus/style.scss */
   .header h2 {
-    font-size: 1.25em;
+    font-size: 1em;
     width: 90%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; } }
+
+/* line 155, C:/web/kedbus/style.scss */
+.filter-wrapper .stop-select {
+  max-width: 80%; }
 
 @keyframes fade-in {
   from {
