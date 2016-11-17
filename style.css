@@ -123,79 +123,55 @@ input, select:focus {
 
 /* line 111, C:/web/kedbus/style.scss */
 .time-table tr {
-  background: #fff; }
+  background: #fff;
+  animation: fade-in 0.3s forwards; }
 
-/* line 114, C:/web/kedbus/style.scss */
+/* line 116, C:/web/kedbus/style.scss */
 .time-table tr:nth-child(even) {
   background: #ECEFF1; }
 
-/* line 117, C:/web/kedbus/style.scss */
+/* line 119, C:/web/kedbus/style.scss */
 .time-table th, .time-table td {
   display: inline-block;
   min-width: 30px;
   min-height: 25px;
   line-height: 25px; }
 
-/* line 123, C:/web/kedbus/style.scss */
+/* line 125, C:/web/kedbus/style.scss */
 .time-table th {
   text-align: right;
   border-right: 1px solid #CFD8DC;
   padding-right: 3px; }
 
-/* line 128, C:/web/kedbus/style.scss */
+/* line 130, C:/web/kedbus/style.scss */
 .time-table td {
   text-align: center;
   font-weight: 300; }
 
-/* line 132, C:/web/kedbus/style.scss */
+/* line 134, C:/web/kedbus/style.scss */
 .time-table .special {
   background-color: #FFF59D; }
 
-/* line 135, C:/web/kedbus/style.scss */
+/* line 137, C:/web/kedbus/style.scss */
 footer {
   height: 4vh;
   line-height: 4vh;
   width: 100%;
   font-size: 0.75em; }
 
-/* Animations */
-/* line 144, C:/web/kedbus/style.scss */
-.time-table tr.ng-enter {
-  transition: 0.5s all;
-  opacity: 0;
-  transform: translateY(30px); }
-
-/* line 150, C:/web/kedbus/style.scss */
-.time-table tr.ng-enter.ng-enter-active {
-  opacity: 1;
-  transform: translateY(0px); }
-
-/* line 155, C:/web/kedbus/style.scss */
-.time-table tr.ng-leave {
-  transition: 0.2s all;
-  opacity: 1; }
-
-/* line 160, C:/web/kedbus/style.scss */
-.time-table tr.ng-leave.ng-leave-active {
-  opacity: 0; }
-
-/* line 164, C:/web/kedbus/style.scss */
-.time-table tr.ng-leave-stagger {
-  transition-delay: 1s;
-  transition-duration: 0; }
-
-/* line 169, C:/web/kedbus/style.scss */
-.time-table tr.ng-enter-stagger {
-  transition-delay: 1s;
-  transition-duration: 0; }
-
 @media screen and (max-width: 400px) {
-  /* line 175, C:/web/kedbus/style.scss */
+  /* line 145, C:/web/kedbus/style.scss */
   .header h2 {
     font-size: 1.25em;
     width: 90%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; } }
+
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */

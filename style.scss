@@ -109,7 +109,9 @@ input, select:focus {
   box-shadow: 0 4px 10px rgba(1, 1, 1, 0.05); }
 
 .time-table tr {
-  background: #fff; }
+  background: #fff;
+  animation: fade-in 0.3s forwards;
+}
 
 .time-table tr:nth-child(even) {
   background: #ECEFF1; }
@@ -139,38 +141,6 @@ footer {
   font-size: 0.75em;
 }
 
-/* Animations */
-
-.time-table tr.ng-enter {
-    transition: 0.5s all;
-    opacity: 0;
-    transform: translateY(30px);
-}
-
-.time-table tr.ng-enter.ng-enter-active {
-    opacity: 1;
-    transform: translateY(0px);
-}
-
-.time-table tr.ng-leave {
-    transition: 0.2s all;
-    opacity: 1;
-}
-
-.time-table tr.ng-leave.ng-leave-active {
-    opacity: 0;
-}
-
-.time-table tr.ng-leave-stagger{
-    transition-delay: 1s;
-    transition-duration: 0;
-}
-
-.time-table tr.ng-enter-stagger{
-    transition-delay: 1s;
-    transition-duration: 0;
-}
-
 @media screen and (max-width: 400px) {
   .header h2 {
     font-size: 1.25em;
@@ -178,4 +148,13 @@ footer {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
