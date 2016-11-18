@@ -3,6 +3,123 @@
     "nr": 1,
     "stops": {
       "stop1": {
+        "stopName": "Stotis",
+        "time": [
+          {
+            "hour": 5,
+            "minutes": [
+              2,
+              54
+            ]
+          },
+          {
+            "hour": 6,
+            "minutes": [
+              25,
+              50
+            ]
+          },
+          {
+            "hour": 7,
+            "minutes": [
+              "00 Š.",
+              27
+            ]
+          },
+          {
+            "hour": 8,
+            "minutes": [
+              32,
+              50
+            ]
+          },
+          {
+            "hour": 9,
+            "minutes": [
+              36
+            ]
+          },
+          {
+            "hour": 10,
+            "minutes": [
+              18,
+              43
+            ]
+          },
+          {
+            "hour": 11,
+            "minutes": [
+              23,
+              47
+            ]
+          },
+          {
+            "hour": 12,
+            "minutes": [
+              30
+            ]
+          },
+          {
+            "hour": 13,
+            "minutes": [
+              12
+            ]
+          },
+          {
+            "hour": 14,
+            "minutes": [
+              15,
+              37
+            ]
+          },
+          {
+            "hour": 15,
+            "minutes": [
+              18,
+              37
+            ]
+          },
+          {
+            "hour": 16,
+            "minutes": [
+              19,
+              37
+            ]
+          },
+          {
+            "hour": 17,
+            "minutes": [
+              "5 Užsuka į Daškonis",
+              37
+            ]
+          },
+          {
+            "hour": 18,
+            "minutes": [
+              14
+            ]
+          },
+          {
+            "hour": 19,
+            "minutes": [
+              19
+            ]
+          },
+          {
+            "hour": 20,
+            "minutes": [
+              27
+            ]
+          },
+          {
+            "hour": 21,
+            "minutes": [
+              38
+            ]
+          }
+        ]
+      },
+      "stop2": {
         "stopName": "Centras (prie Ūkio banko)",
         "time": [
           {
@@ -120,7 +237,7 @@
           }
         ]
       },
-      "stop2": {
+      "stop3": {
         "stopName": "Justinava (link stoties)",
         "time": [
           {
