@@ -1,0 +1,15 @@
+{
+  "name": "Kedbus tvarkaraštis",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#607D8B",
+  "background_color": "#fafafa",
+  "icons": [
+    {
+      "src": "bus.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
