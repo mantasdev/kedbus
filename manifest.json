@@ -2,7 +2,7 @@
   "name": "Kedbus tvarkaraštis",
   "short_name": "Kedbus",
   "lang": "en-US",
-  "start_url": "/kedbus/index.html",
+  "start_url": "/kedbus/",
   "display": "standalone",
   "theme_color": "#607D8B",
   "background_color": "#fafafa",
