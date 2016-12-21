@@ -1,4 +1,3 @@
-// Use a cacheName for cache versioning
 var cacheName = 'v1:static';
 var filesToChache = [
     '/kedbus/',
@@ -13,9 +12,7 @@ var filesToChache = [
     '/kedbus/fonts/Roboto-Regular.ttf'
 ];
 
-// During the installation phase, you'll usually want to cache static assets.
 self.addEventListener('install', function(e) {
-    // Once the service worker is installed, go ahead and fetch the resources to make this work offline.
     e.waitUntil(
         caches.open(cacheName).then(function(cache) {
             console.log('[ServiceWorker] Caching app shell');
