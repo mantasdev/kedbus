@@ -1,16 +1,16 @@
 // Use a cacheName for cache versioning
 var cacheName = 'v1:static';
 var filesToChache = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/js/mainController.js',
-    '/js/busData.json',
-    '/js/app.js',
-    '/lib/angular.min.js',
-    '/fonts/Roboto-Light.ttf',
-    '/fonts/Roboto-Medium.ttf',
-    '/fonts/Roboto-Regular.ttf'
+    '/kedbus/',
+    '/kedbus/index.html',
+    '/kedbus/css/style.css',
+    '/kedbus/js/mainController.js',
+    '/kedbus/js/busData.json',
+    '/kedbus/js/app.js',
+    '/kedbus/lib/angular.min.js',
+    '/kedbus/fonts/Roboto-Light.ttf',
+    '/kedbus/fonts/Roboto-Medium.ttf',
+    '/kedbus/fonts/Roboto-Regular.ttf'
 ];
 
 // During the installation phase, you'll usually want to cache static assets.
