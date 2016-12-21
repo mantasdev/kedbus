@@ -8,7 +8,7 @@
   "background_color": "#fafafa",
   "icons": [
     {
-      "src": "bus.png",
+      "src": "img/bus.png",
       "sizes": "128x128",
       "type": "image/png"
     }

@@ -5,7 +5,21 @@
     -webkit-transition: all .2s;
     transition: all .2s;
 }
-
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
 body {
     -webkit-font-smoothing: antialiased;
     background: #fafafa;
@@ -73,13 +87,13 @@ select:focus {
     height: 28px;
 }
 .filter-wrapper select:hover{
-    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 .filter-wrapper select:focus{
     background-color: initial;
 }
 .filter-wrapper select.bus-select {
-    font-weight: 700;
+    font-weight: 500;
     padding-left: 5px;
 }
 
