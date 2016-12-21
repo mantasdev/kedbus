@@ -4,7 +4,7 @@ var filesToChache = [
     '/kedbus/index.html',
     '/kedbus/css/style.css',
     '/kedbus/js/mainController.js',
-    '/kedbus/js/busData.json',
+    '/kedbus/busData.json',
     '/kedbus/js/app.js',
     '/kedbus/lib/angular.min.js',
     '/kedbus/fonts/Roboto-Light.ttf',
