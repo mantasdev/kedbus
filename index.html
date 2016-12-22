@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +18,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="img/bus.png">
     <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="img/bus.png">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" async>
     <script src = "lib/angular.min.js"></script>
 
 </head>
@@ -53,7 +52,29 @@
             &copy; <script type="text/javascript">var cur = 2016; var year = new Date(); if(cur == year.getFullYear()) year = year.getFullYear(); else year = cur + ' - ' + year.getFullYear(); document.write(year);</script> by <a href="">Mantas Puidokas</a>
         </footer>
     </div>
-    <script src="js/mainController.js"></script>
-    <script src="js/app.js" async></script>
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('./sw.js')
+            .then(function (reg) {console.log('Successfully registered service worker', reg);})
+            .catch(function (err) {console.warn('Error whilst registering service worker', err);});
+        }
+
+        /*global angular */
+        var app = angular.module("timeTable", []);
+
+        app.controller("ngCtrl", function ($scope, $http) {
+            "use strict";
+            //Global App strings
+            $scope.appName = "Autobusų tvarkaraštis";
+            $scope.h_busNo = "Autobuso Nr.: ";
+            $scope.h_stopName = "Stotelė : ";
+
+            //Get JSON Data
+            $http.get("busData.json").then(function (response) {
+                $scope.busData = response.data;
+            });
+        });
+    </script>
 </body>
 </html>
